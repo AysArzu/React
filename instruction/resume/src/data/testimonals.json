@@ -1,0 +1,21 @@
+[
+	{
+		"id": 1,
+		"image": "testimonial-img1.jpg",
+		"name": "Ebubekir Battal",
+		"message": "Pri diam soluta molestie at, id melius ponderum mel, nominavi adipisci partiendo per te. No usu doctus dolorem liberavisse, vim nusquam invidunt id."
+	},
+	{
+		"id": 2,
+		"image": "testimonial-img2.jpg",
+		"name": "Fatih Arzu",
+		"message": "Pri diam soluta molestie at, id melius ponderum mel, nominavi adipisci partiendo per te. No usu doctus dolorem liberavisse, vim nusquam invidunt id."
+	},
+	{
+		"id": 3,
+		"image": "testimonial-img3.jpg",
+		"name": "Hakan Yıldırım",
+		"message": "Pri diam soluta molestie at, id melius ponderum mel, nominavi adipisci partiendo per te. No usu doctus dolorem liberavisse, vim nusquam invidunt id."
+	}
+	
+]

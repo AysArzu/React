@@ -1,0 +1,18 @@
+.main-content section .section-header {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.main-content section .section-header h2 {
+    color: #f74470;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+	letter-spacing: 3px;
+    margin: 0;
+    text-transform: uppercase;
+    position: relative;
+	
+}
+

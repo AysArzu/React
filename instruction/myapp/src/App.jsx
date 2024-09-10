@@ -1,0 +1,96 @@
+import HelloReact from "./components/01-hello/hello-react";
+import HelloReacts from "./components/01-hello/hello-reacts";
+import { Jsx1 } from "./components/02-jsx/jsx1";
+import { Jsx2 } from "./components/02-jsx/jsx2";
+import { Jsx3 } from "./components/02-jsx/jsx3";
+import { Jsx4 } from "./components/02-jsx/jsx4";
+import { Jsx5 } from "./components/02-jsx/jsx5";
+import { Jsx6 } from "./components/02-jsx/jsx6";
+import { Jsx7 } from "./components/02-jsx/jsx7";
+import { Style1 } from "./components/03-styles/style1";
+import { Style2 } from "./components/03-styles/style2";
+import { Style3 } from "./components/03-styles/style3";
+import { Style4 } from "./components/03-styles/style4";
+import { Style5 } from "./components/03-styles/style5";
+import { Clock1 } from "./components/04-clock1/clock1";
+import Greetings from "./components/05-props/greetings";
+import { Products } from "./components/05-props/products";
+import { Clock2 } from "./components/06-clock2/clock2";
+import { Image } from "./components/07-image/image";
+import { Gallery } from "./components/08-image-gallery/gallery";
+import { ProfileCard } from "./components/09-profile-card/profile-card";
+import { ReactBootstrap } from "./components/10-bootstrap/react-bootstrap";
+import { Icons } from "./components/11-icons/icons";
+import { Event1 } from "./components/12-events/event1";
+import { Event2 } from "./components/12-events/event2";
+import { Footer } from "./components/13-shops/footer";
+import { ProductList } from "./components/13-shops/product-list";
+import { Shop } from "./components/13-shops/shop";
+import { State } from "./components/14-state/state";
+import { Stateless } from "./components/14-state/stateless";
+import { Counter1 } from "./components/15-counter/counter1";
+import { Counter2 } from "./components/15-counter/counter2";
+import { UserList } from "./components/16-birthday/userList";
+import Useeffect1 from "./components/17-useeffet/useeffect1";
+import { Useeffect3 } from "./components/17-useeffet/useeffect3";
+import { Clock3 } from "./components/18-clock3/clock2";
+
+const App = () => {
+  return (
+    <div>
+      {/* 
+      <h1>Hello App</h1>
+      <HelloReact />
+      <HelloReacts />
+      <Jsx1 />
+      <Jsx2 />
+      <Jsx3 />
+      <Jsx4 />
+      <Jsx5 />
+      <Jsx6 />
+      <Jsx7 /> 
+      <Style1 />
+      <Style2 />
+      <Style3 />
+      <Style4 />   
+      <Style5 />
+      <Clock1 /> 
+      <Greetings />
+      <Products />
+      <Clock2 textColor="yellow" bgColor="navy" />
+      <Clock2 textColor="white" bgColor="black" hideTime={true} />
+      <Image />
+      <Gallery />
+
+       <ProfileCard
+        avatar="profile.jpg"
+        name="Suzanne Doe"
+        location="San Francisco, USA"
+        followers={5423545}
+        following={2300}
+        shots={10}
+      />
+      <ReactBootstrap />
+      <Icons />   
+      <Event1 />
+      <Event2 />
+      <Shop />
+      <ProductList />
+      <Footer />
+      <Stateless />
+      <State />
+      <Counter1 />
+      <Counter2 />
+      <UserList />
+
+      <Useeffect1 />
+
+      <Clock3 />
+       
+
+      */}
+      <Useeffect3 />
+    </div>
+  );
+};
+export default App;
