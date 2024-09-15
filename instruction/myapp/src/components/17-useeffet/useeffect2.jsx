@@ -5,7 +5,7 @@ export const Useeffect2 = () => {
     useEffect(() => {
         console.log('MOUNTING2')
         return () => {
-            console.log("UNMOUNTING@: Buradaki kodlar componint DOM dan atilmadan hemen once calisir");
+            console.log("UNMOUNTING2: Buradaki kodlar component DOM dan atilmadan hemen once calisir");
         }
     }, [])
 

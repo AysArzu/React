@@ -1,3 +1,4 @@
+import { Form } from "react-bootstrap";
 import HelloReact from "./components/01-hello/hello-react";
 import HelloReacts from "./components/01-hello/hello-reacts";
 import { Jsx1 } from "./components/02-jsx/jsx1";
@@ -34,6 +35,17 @@ import { UserList } from "./components/16-birthday/userList";
 import Useeffect1 from "./components/17-useeffet/useeffect1";
 import { Useeffect3 } from "./components/17-useeffet/useeffect3";
 import { Clock3 } from "./components/18-clock3/clock2";
+import { CountryFilter } from "./components/19-country-filter/country-filter";
+import { Useref } from "./components/20-userref/useref";
+import ClassComp from "./components/21-class-comp/class-comps";
+import { ProductStore } from "./components/22-product-store/product-store";
+import { Recipes } from "./components/23-recipes/recipes";
+import { Parent } from "./components/24-child-to-parent/prent";
+import { Form1 } from "./components/25-forms/form1";
+import { Form2 } from "./components/25-forms/form2";
+import { Form3 } from "./components/25-forms/form3";
+import { Form4 } from "./components/25-forms/form4";
+import { Form5 } from "./components/25-forms/form5";
 
 const App = () => {
   return (
@@ -86,10 +98,23 @@ const App = () => {
       <Useeffect1 />
 
       <Clock3 />
+      <Useeffect3 />
+      <CountryFilter />
+      <Useref />
+      <ClassComp />
+      <ProductStore />
+      <Recipes />
+      <Parent/>
+      <Form1/>
+      <Form2 />
+      <Form3/>
+      <Form4/>
        
 
       */}
-      <Useeffect3 />
+
+<Form5/>
+
     </div>
   );
 };
