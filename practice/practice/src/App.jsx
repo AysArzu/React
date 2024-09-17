@@ -6,6 +6,8 @@ import { Types } from "./components/types.jsx";
 import { Select } from "./components/select.jsx";
 import { ColorPicker } from "./components/colorPicker.jsx";
 import { LoginForm } from "./components/loginForm.jsx";
+import { AddDeleteList } from "./components/06-Add-Delete-List.jsx";
+import { Home } from "./components/07-searchbar-cards/home.jsx";
 
 function App() {
   return (
@@ -21,11 +23,11 @@ function App() {
       
       <ColorPicker />
       
+      <LoginForm />
+      <AddDeleteList />
       
       */}
-      
-      <LoginForm />
-      
+      <Home />
    
     </>
   );
