@@ -30,7 +30,7 @@ export const Form4 = () => {
         alert("Form submitted successfully");
     };
     const handleChange = (e) => {
-        const { name, value } = e.target;
+        const { name, value } = e.target;/* degiskenin degerini  ve adini aldik. name payload ile ayni olmak zorunda*/
         setFormData((prev) => ({ ...prev, [name]: value }));
     };
     return (
