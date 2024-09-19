@@ -19,6 +19,7 @@ import { Home } from "../components/00-common/home";
 import { Customers } from "../components/26-routing/customers";
 import { CustomerDetails } from "../components/26-routing/customer-details";
 import { UseNavigate } from "../components/26-routing/use-navigate";
+import { Converter } from "../components/27-currencies/converter";
 
 const router = createBrowserRouter([
 	{
@@ -119,7 +120,13 @@ const router = createBrowserRouter([
             {
                 path: "use-navigate",
                 element: <UseNavigate />
-            }
+            },{
+				path:"converter",
+				element:<Converter />
+			},{
+				path:"*",
+				element:<p>Not Found</p>
+			}
 		],
 	},
 ]);
