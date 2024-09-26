@@ -1,0 +1,8 @@
+.menu p{
+    cursor: pointer;
+
+}
+
+.menu p:hover,.link:hover{
+    color: red !important;
+}
